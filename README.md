@@ -11,6 +11,9 @@ For this project I wanted to implement some kind of recommendation system using 
 
 Program prompts user for a movie, then returns a list of recommended movies. Users can also specify a specific genre that they enjoy and recommendations should be correspondingly tailored.
 
+## Notes
+
+
 ## Personal Learning Objectives
 
 These were my goals going into this project:
@@ -29,4 +32,4 @@ These were my goals going into this project:
 
 ## Next Steps
 
-Institute some kind of content-based filtering system, possibly integrate some kind of GUI. Tweak search and recommendation functionality to be more accurate and intuitive.
+Institute some kind of content-based filtering system, possibly integrate some kind of GUI. Tweak search and recommendation functionality to be more accurate and intuitive. Improve s3 data access speed by initially downloading csv files from bucket to project directory then referencing local files for regular program runs.
